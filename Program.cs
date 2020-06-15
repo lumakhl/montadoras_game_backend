@@ -27,7 +27,6 @@ namespace MontadorasGameApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseUrls("https://192.168.15.2:5001","http://192.168.15.2:5000","https://localhost:5001","http://localhost:5000");
                 });
     }
 }
